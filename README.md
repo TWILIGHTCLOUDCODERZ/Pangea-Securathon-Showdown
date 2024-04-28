@@ -6,7 +6,7 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
   <span style="animation: blinker 1s linear infinite;">CHECK THE VIDEO DEMO</span>
 </a>
 
-<br>
+&nbsp;
 
 ![1](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown/assets/101945531/ff2cffb1-224d-4e67-bfb6-7c47818edcff)
 
