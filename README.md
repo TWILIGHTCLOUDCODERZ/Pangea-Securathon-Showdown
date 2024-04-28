@@ -19,7 +19,7 @@ To install this project, clone the repository using the following link:
 
 Then, run these commands:
 
-```bash
+
 git clone https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git
 cd SecureHealthcareInsuranceApp
 npm install
@@ -36,7 +36,6 @@ You need to set up the following environment variables to configure your project
 
 Add these variables to a `.env` file located in the root of your project. This file should not be tracked by version control to protect your secrets.
 
-```plaintext
 REACT_APP_AWS_ACCESS_KEY_ID=your_aws_access_key_id
 REACT_APP_AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 REACT_APP_AWS_REGION=your_aws_region
