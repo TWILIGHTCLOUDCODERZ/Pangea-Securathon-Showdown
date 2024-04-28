@@ -4,6 +4,10 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 
 [![Check the Video Demo](https://img.shields.io/badge/Video-Demo-blue?style=for-the-badge&logo=youtube)](https://youtu.be/iiBftlKpyQw)
 
+[![Video Available](https://img.shields.io/badge/Watch-Now-red?style=for-the-badge&logo=youtube)](https://youtu.be/iiBftlKpyQw)
+[![Duration](https://img.shields.io/badge/Duration-10%20minutes-blue?style=for-the-badge)](https://youtu.be/iiBftlKpyQw)
+
+
 &nbsp;
 
 ![1](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown/assets/101945531/ff2cffb1-224d-4e67-bfb6-7c47818edcff)
