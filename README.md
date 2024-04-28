@@ -6,6 +6,7 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
+- [Run/Build](#Run/Build)
 - [Features](#features)
 - [Usage](#usage)
 - [Tests](#tests)
@@ -28,7 +29,7 @@ Then, run these commands:
 
 ## Environment Variables
 
-You need to set up the following environment variables to configure your project correctly:
+You need to set up the following environment variables to configure our project correctly:
 
 - **Pangea API Token**: Follow [this document](https://pangea.cloud/docs/domain-intel/getting-started/) for instructions on how to obtain and configure your Pangea API token.
 - **AWS S3 Configuration**: Comprehensive setup instructions for AWS S3 can be found in [this document](https://repost.aws/knowledge-center/read-access-objects-s3-bucket).
@@ -49,3 +50,8 @@ REACT_APP_S3_BUCKET=your_s3_bucket_name
 REACT_APP_API_SCAN_ENDPOINT=your_pangea_api_endpoint
 
 REACT_APP_AUTH_TOKEN=your_auth0_token
+
+## Run/Build
+To start the application run the command npm start
+`npm start`
+This will start the application on http://localhost:3000. Navigate to this URL in your web browser to access the app
