@@ -6,10 +6,9 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Run/Build](#Run/Build)
+- [Run-Build](#run-Build)
 - [Features](#features)
 - [Usage](#usage)
-- [Tests](#tests)
 - [License](#license)
 
 ## Installation
@@ -51,7 +50,40 @@ REACT_APP_API_SCAN_ENDPOINT=your_pangea_api_endpoint
 
 REACT_APP_AUTH_TOKEN=your_auth0_token
 
-## Run/Build
+## Run-Build
 To start the application run the command npm start
 `npm start`
-This will start the application on http://localhost:3000. Navigate to this URL in your web browser to access the app
+This will start the application on http://localhost:3000. Navigate to this URL in the web browser to access the app
+To deploy the application run the command npm build
+`npm build`
+
+## Features
+
+- Robust authentication and authorization with Auth0.
+- Enhanced security checks using Pangea.
+- Secure file uploads to AWS S3 after malware scanning.
+- Easy to use interface for downloading and uploading insurance forms
+
+## License
+
+MIT License
+
+Copyright (c) 2024 TCC-TWILIGHTCLOUDCODERZ - `DEEPAN`
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
