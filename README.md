@@ -39,8 +39,13 @@ You need to set up the following environment variables to configure your project
 Add these variables to a `.env` file located in the root of our project.
 
 REACT_APP_AWS_ACCESS_KEY_ID=your_aws_access_key_id
+
 REACT_APP_AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+
 REACT_APP_AWS_REGION=your_aws_region
+
 REACT_APP_S3_BUCKET=your_s3_bucket_name
+
 REACT_APP_API_SCAN_ENDPOINT=your_pangea_api_endpoint
+
 REACT_APP_AUTH_TOKEN=your_auth0_token
