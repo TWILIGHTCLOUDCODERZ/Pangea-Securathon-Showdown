@@ -6,13 +6,6 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
   <span style="animation: blinker 1s linear infinite;">CHECK THE VIDEO DEMO</span>
 </a>
 
-<style>
-@keyframes blinker {
-  50% { opacity: 0; }
-}
-</style>
-
-
 ## Table of Contents
 
 - [Installation](#installation)
