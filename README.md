@@ -12,10 +12,14 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 
 ## Installation
 
-Steps to install the project locally:
+To install this project, clone the repository using the following link:
+
+[https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git)
+
+Then, run these commands:
 
 ```bash
-git clone [https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git)
+git clone https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git
 cd yourprojectname
 npm install
 
