@@ -16,13 +16,11 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 To install this project, clone the repository using the following link:
 
 [Secure Healthcare Insurance App](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git)
-
+'
 Then, run these commands:
-
-
 git clone https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown.git
 cd SecureHealthcareInsuranceApp
-npm install
+npm install'
 
 ## Environment Variables
 
