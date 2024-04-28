@@ -4,9 +4,6 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 
 [![Check the Video Demo](https://img.shields.io/badge/Video-Demo-blue?style=for-the-badge&logo=youtube)](https://youtu.be/iiBftlKpyQw)
 
-[![Check the Video Demo](https://yourhost.com/path/to/large-badge.png)](https://youtu.be/iiBftlKpyQw)
-
-
 
 &nbsp;
 
