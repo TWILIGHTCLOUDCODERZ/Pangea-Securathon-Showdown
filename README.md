@@ -2,7 +2,7 @@
 
 React.js-based healthcare web application, deployed on Azure Web Apps, features robust login and registration processes authenticated by Pangea, and authenticated by Auth0, a leading identity management platform. It leverages the Pangea library for enhanced security, which includes checking user IPs to determine legitimacy and detect proxy use. After successful login, users can download and review an insurance test form, add necessary details, and then upload it back to the application. The upload process includes a Pangea file scan to ensure the file is free from malware. Once validated, the file can safely be uploaded to AWS S3. Through these steps, Pangea Cloud services effectively safeguard the login, registration, and file upload processes.
 
-[**CHECK THE VIDEO DEMO**](https://youtu.be/iiBftlKpyQw)
+[![Check the Video Demo](https://img.shields.io/badge/Video-Demo-blue?style=for-the-badge&logo=youtube)](https://youtu.be/iiBftlKpyQw)
 
 &nbsp;
 
