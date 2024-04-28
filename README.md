@@ -5,7 +5,8 @@ React.js-based healthcare web application, deployed on Azure Web Apps, features 
 <a href="https://youtu.be/iiBftlKpyQw" target="_blank" style="text-decoration: none;">
   <span style="animation: blinker 1s linear infinite;">CHECK THE VIDEO DEMO</span>
 </a>
-<A></A>
+
+<br>
 ![1](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown/assets/101945531/ff2cffb1-224d-4e67-bfb6-7c47818edcff)
 
 ## Table of Contents
@@ -63,6 +64,8 @@ This will start the application on http://localhost:3000. Navigate to this URL i
 To deploy the application run the command npm build
 `npm build`
 
+![8](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown/assets/101945531/07093996-c5f9-4fe1-80c4-d6f50b4df4bc)
+
 ## Features
 
 - Robust authentication and authorization with Auth0.
@@ -93,6 +96,7 @@ The app features advanced malware detection to safeguard system integrity. Effic
 **Use Case**: A doctor uploads a set of scanned medical images. Before the images are stored, Pangea Cloud scans the files for malware. Thanks to Pangea's efficient file handling and rapid response times, the doctor is quickly alerted when a threat is detected and can take immediate action, ensuring that the integrity of the healthcare system's data is maintained.
 
 
+![7](https://github.com/TWILIGHTCLOUDCODERZ/Pangea-Securathon-Showdown/assets/101945531/03adae60-c056-460e-9aed-e4872cc42fab)
 
 ## License
 
