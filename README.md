@@ -80,25 +80,23 @@ To deploy the application run the command npm build
 
 ## Usage
 
-The Secure Healthcare Insurance App integrates several security and validation features to ensure user data protection and compliance with healthcare regulations. Here's how these features work in real-world scenarios:
+The Secure Healthcare Insurance App incorporates a suite of security features powered by Pangea Cloud, ensuring a protected and compliant user experience. Below are the use cases for each feature:
 
-### 1. Pangea Login Validation
+### Pangea Login Validation
+Pangea Cloud provides robust authentication mechanisms, including multi-factor authentication and biometric checks, to ensure secure login processes.
 
-The app provides robust authentication mechanisms. When a user attempts to log in, Pangea Cloud verifies their identity using multi-factor authentication, including biometric checks. This ensures that the login process is not only secure but also compliant with the strict healthcare regulations.
+**Use Case**: A customer, John , attempts to log into the application to file an insurance claim. His login is validated whether he is not using from proxy or vpn network to avoid threats.
 
-**Use Case**: A registered nurse at a clinic needs to access patient records. She enters her credentials and is then asked to verify her identity using a fingerprint scan, providing an extra layer of security before access is granted.
+### Pangea User Registration Validation
+Pangea Cloud automates data validation and integrates identity verification services, encrypting and securely storing all data to maintain regulatory compliance.
 
-### 2. Pangea User Registration Validation
+**Use Case**: When Jane Smith registers for the first time, her information is cross-referenced against an external database for identity verification, ensuring that her registration is both secure and compliant with healthcare regulations.
 
-During the registration process, Pangea Cloud automates data validation and integrates identity verification services. This automation improves the accuracy of user data and reduces the risk of fraudulent activity.
+### Pangea Malware Protection and File Management
+The application utilizes Pangea Cloud's advanced malware detection and efficient file handling capabilities to safeguard system integrity and comply with data protection laws.
 
-**Use Case**: A new healthcare provider is registering to use the app. Pangea Cloud automatically verifies the provider's medical license number and other credentials against trusted databases, ensuring all information is accurate and valid.
+**Use Case**: Before submitting her insurance claim form, Jane's document is scanned for malware. Pangea Cloud identifies a potential threat in her file and prevents the upload, prompting Jane to remove the malware. After cleaning the document, she successfully uploads the claim form, which is then securely stored in AWS S3.
 
-### 3. Pangea Malware Protection and File Management
-
-The app features advanced malware detection to safeguard system integrity. Efficient file handling capabilities ensure that any document uploaded or downloaded complies with data protection laws and is free of malware.
-
-**Use Case**: A doctor uploads a set of scanned medical images. Before the images are stored, Pangea Cloud scans the files for malware. Thanks to Pangea's efficient file handling and rapid response times, the doctor is quickly alerted when a threat is detected and can take immediate action, ensuring that the integrity of the healthcare system's data is maintained.
 
 &nbsp;
 
