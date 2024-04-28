@@ -1,0 +1,148 @@
+.homepage-container {
+  background-image: url('./insurance-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.running-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.running-text marquee {
+  font-size: 14px;
+  color: white;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.get-started-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}
+
+.benefits-section {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.benefit {
+  width: 30%;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  border-top: 1px solid #ddd;
+}
+
+.homepage-container {
+  background-image: url('./insurance-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.running-text {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 100, 0, 0.5); /* Dark green glow */
+  animation: glowText 2s infinite alternate; /* Glow animation */
+}
+
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 10px rgba(0, 100, 0, 0.5); /* Dark green glow */
+    transform: translateY(0);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(0, 100, 0, 0.7); /* Stronger shadow */
+    transform: translateY(-10px); /* Bounce up */
+  }
+  150% {
+    text-shadow: 0 0 10px rgba(0, 100, 0, 0.5); /* Back to initial shadow */
+    transform: translateY(0); /* Bounce down to initial position */
+  }
+}
+
+/* Styles for other sections */
+.hero-section, .benefits-section, .footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.video-container {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px; /* Adjust based on preference */
+  height: 315px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.get-started-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.benefit {
+  margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,35 @@
+.login-button,
+.logout-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-button {
+  background: linear-gradient(to right, #007BFF, #00BFFF);
+  color: white;
+}
+
+.logout-button {
+  background: linear-gradient(to right, #dc3545, #c82333);
+  color: white;
+}
+
+.login-button:hover,
+.logout-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:active,
+.logout-button:active {
+  transform: scale(0.95);
+}
+
+.login-button:focus,
+.logout-button:focus {
+  outline: none;
+}
